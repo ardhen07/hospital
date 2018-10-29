@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -59,6 +59,7 @@
                 <label for="terms">I read and agree to the <a href="javascript:void(0);">terms of usage</a>.</label>
             </div>
             <div class="text-center">
+             <a href="login" class="btn btn-raised waves-effect g-bg-cyan">SIGN IN</a>
                 <a href="#" class="btn btn-raised g-bg-cyan waves-effect">SIGN UP</a>
             </div>
             <div class="m-t-10 m-b--5 align-center">

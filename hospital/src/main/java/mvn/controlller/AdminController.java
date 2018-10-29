@@ -64,17 +64,13 @@ public class AdminController {
         }
     }
  
-    /*// GET: Show Login Page
+    // GET: Show Login Page
     @RequestMapping(value = { "/login" }, method = RequestMethod.GET)
     public String login(Model model) {
  
-        return "sign-up";
-    }*/
- // GET: Show signup Page
-    @RequestMapping("/sign-up")
-    public String home() {
-        return "sign-up";
+        return "login";
     }
+ 
  
  
     @RequestMapping(value = { "/accountInfo" }, method = RequestMethod.GET)

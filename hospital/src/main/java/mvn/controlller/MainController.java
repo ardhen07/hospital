@@ -72,7 +72,11 @@ public class MainController {
     public String accessDenied() {
         return "/403";
     }
- 
+ // GET: Show signup Page
+    @RequestMapping("/sign-up")
+    public String signup() {
+        return "sign-up";
+    }
     @RequestMapping("/")
     public String home() {
         return "index";
